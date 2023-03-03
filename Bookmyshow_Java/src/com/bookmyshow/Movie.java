@@ -4,19 +4,19 @@ import java.util.HashMap;
 import java.util.LinkedHashMap;
 
 public class Movie {
-	
+
 	private int showNumber; 
 	private int rows;
 	private int seatsPerRow;
-	
+
 	private HashMap<Integer, LinkedHashMap<String, String>> seats;
-	
-				   //1 , [A1,A2,A3,A4]
-					//2, [b1,b2,b3,b4]
-					//seats length = no of rows 
-					// 
-	
-	
+
+	//1 , [A1,A2,A3,A4]
+	//2, [b1,b2,b3,b4]
+	//seats length = no of rows 
+	// 
+
+
 	public Movie(int showNumber, int rows, int seatsPerRow, HashMap<Integer, LinkedHashMap<String, String>> seats) {
 		super();
 		this.showNumber = showNumber;
@@ -25,7 +25,7 @@ public class Movie {
 		this.seats = seats;
 	}
 
-	
+
 	public int getShowNumber() {
 		return showNumber;
 	}
@@ -58,10 +58,10 @@ public class Movie {
 	public void setSeats(HashMap<Integer, LinkedHashMap<String, String>> seats) {
 		this.seats = seats;
 	}
-	
-	
-	
-	
-	
+
+
+
+
+
 
 }
