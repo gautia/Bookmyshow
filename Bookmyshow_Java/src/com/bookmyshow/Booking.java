@@ -9,7 +9,7 @@ public class Booking {
 	private String mobileNo; 
 	private HashMap<String, String> bookedSeats;
 	private LocalDateTime time;
-	
+
 	public Booking(String bookingId, String mobileNo, HashMap<String, String> bookedSeats, LocalDateTime time) {
 		super();
 		this.bookingId = bookingId;
@@ -17,7 +17,7 @@ public class Booking {
 		this.bookedSeats = bookedSeats;
 		this.time = time;
 	}
-	
+
 	public String getBookingId() {
 		return bookingId;
 	}
